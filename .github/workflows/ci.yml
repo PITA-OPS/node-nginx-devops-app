@@ -5,17 +5,20 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Install dependencies
-        run: npm install
-        working-directory: node-nginx-app/app
+        run: pip install -r requirements.txt
+        working-directory: src
 
-      - name: Lint or Test Placeholder
-        run: echo "No tests yet"
+      - name: Run tests (if present)
+        run: |
+          pip install pytest
+          pytest ../test
+        working-directory: src
 
       - name: Build Docker image
         run: docker build -t devops-app .
-        working-directory: node-nginx-app
