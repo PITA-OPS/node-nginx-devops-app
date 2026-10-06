@@ -113,7 +113,7 @@ Optional tools for the deployment/infrastructure examples:
 Clone the repository and enter it:
 
 ```bash
-git clone https://github.com/PITA-OPS/node-nginx-devops-app.git
+git clone https://github.com/PITA-OPS/cloud-native-devops-lab.git
 cd node-nginx-devops-app
 ```
 
