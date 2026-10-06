@@ -1,6 +1,6 @@
 # Cloud-Native DevOps Lab
 
-A small Python Flask application used as the workload for a hands-on DevOps project.
+A small Python Flask application.
 
 The application itself is intentionally simple: it exposes a single HTTP endpoint on port `5000`. The rest of the repository demonstrates how an application can be tested, containerized, built in CI, described for Kubernetes, provisioned alongside AWS infrastructure with Terraform, and prepared for basic monitoring and health checks.
 
