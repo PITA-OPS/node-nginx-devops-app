@@ -1,4 +1,4 @@
-# cloud-native-devops-lab
+# cloud native devops lab
 
 A complete DevOps project including:
 - Python Flask application
