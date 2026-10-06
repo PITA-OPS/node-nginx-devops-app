@@ -114,7 +114,7 @@ Clone the repository and enter it:
 
 ```bash
 git clone https://github.com/PITA-OPS/cloud-native-devops-lab.git
-cd node-nginx-devops-app
+cd cloud-native-devops-lab
 ```
 
 Create a virtual environment:
