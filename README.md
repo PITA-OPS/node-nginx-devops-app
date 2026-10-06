@@ -26,8 +26,6 @@ The application listens on:
 0.0.0.0:5000
 ```
 
-> The response text still contains the project's old "Node-NGINX" name. The current implementation is Python/Flask and does not contain Node.js or NGINX.
-
 ## Project Architecture
 
 ```text
