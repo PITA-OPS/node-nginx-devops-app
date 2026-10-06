@@ -1,4 +1,4 @@
-# my-devops-app
+# cloud-native-devops-lab
 
 A complete DevOps project including:
 - Python Flask application
