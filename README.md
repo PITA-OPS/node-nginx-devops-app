@@ -17,7 +17,7 @@ GET /
 Example response:
 
 ```text
-Hello from Node-NGINX Python App!
+Cloud-Native DevOps Lab is running!
 ```
 
 The application listens on:
